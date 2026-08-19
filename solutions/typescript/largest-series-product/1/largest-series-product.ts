@@ -1,6 +1,5 @@
 function getProduct(input: number[], i: number, span: number) {
   const product = input.slice(i,i + span).reduce((acc, curr) => acc * curr, 1)
-  console.log(input.slice(i, i + span), span, product, input)
   return product
 }
 
